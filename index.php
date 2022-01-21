@@ -12,10 +12,12 @@
 </head>
 
 <body>
+    <div class="text-center">
+        <h1>Agenda</h1>
+    </div>
 
     <div class="container">
 
-    
         <div class='formulario'>
             <form action="Php/Agregar.php" method="post">
                 <div class="form-group">
@@ -24,7 +26,8 @@
                 </div>
                 <div class="form-group">
                     <label for="inputEmail4">Correo</label>
-                    <input type="email" class="form-control" id="correo" name="correo" placeholder="ejemplo@ejemplo.com">
+                    <input type="email" class="form-control" id="correo" name="correo"
+                        placeholder="ejemplo@ejemplo.com">
                 </div>
                 <div class="form-group">
                     <label for="inputAddress">Direccion</label>
@@ -37,13 +40,7 @@
                     </div>
                     <div class="form-group col-md-4">
                         <label for="inputState">Estado</label>
-                        <select id="estado" class="form-control" name="estado">
-                            <option value="Durango">Durango</option>
-                            <option value="CDMX">CDMX</option>
-                            <option value="Jalisco">Jalisco</option>
-                            <option value="Sonora">Sonora</option>
-                            <option value="Chihuahua">Chihuahua</option>
-                        </select>
+                        <input type="text" class="form-control" id="estado" name="estado">
                     </div>
                     <div class="form-group col-md-2">
                         <label for="inputZip">C.P.</label>

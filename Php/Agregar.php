@@ -28,12 +28,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Css/Agregar.css">
     <title>Agenda</title>
 </head>
 
 <body>
-
-    <h1>Agenda</h1>
+    <div class="d-flex flex-row justify-content-between titulo">
+        <h1>Agenda</h1>
+        <button type="button" class="btn btn-success" onclick="salirIndex();">Agregar</button>
+    </div>
     <table class="table">
         <thead>
             <tr>
@@ -81,5 +84,13 @@
         </thead>
     </table>
 </body>
+
+<script type="text/javascript">
+
+    function salirIndex() {
+        window.location.href = "/enero_abril/agenda";
+    }
+
+</script>
 
 </html>
