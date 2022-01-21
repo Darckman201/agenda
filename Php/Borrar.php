@@ -1,5 +1,5 @@
 <?php
-    include 'conexion.php';
+    include 'Conexion.php';
     // $conexion = mysqli_connect('127.0.0.1','root','','agenda');
     if (isset($_POST['Borrar'])) {
         $id = $_POST["id"];
